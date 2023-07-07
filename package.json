@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "FoundryVTT MouseGuard system",
   "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
     "lint": "npm run typecheck && npm run eslint && npm run prettier",
     "lint:fix": "npm run typecheck && npm run eslint:fix && npm run prettier:fix",
     "eslint": "eslint \"**/*.{cjs,mjs,js,ts,tsx}\"",
