@@ -1,0 +1,30 @@
+.dice li img {
+    background-color: white;
+    height: 24px;
+    width: 24px;
+}
+
+.mouse-tray {
+    flex: none;
+}
+
+.mouse-dice-roll {
+    list-style: none;
+}
+
+.mouse-dice-roll li {
+    display: inline;
+    margin: 0 2px;
+    height: 24px;
+    width: 24px;
+}
+.mouse-dice-roll li img {
+    background-color: white;
+}
+
+.mouse-dice-button {
+    flex: 1 1 0;
+}
+.mouse-roll-button {
+    flex: 2 1 0;
+}

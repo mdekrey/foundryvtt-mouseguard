@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "FoundryVTT MouseGuard system",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite build --watch --sourcemap",
     "build": "tsc && vite build",
     "lint": "npm run typecheck && npm run eslint && npm run prettier",
     "lint:fix": "npm run typecheck && npm run eslint:fix && npm run prettier:fix",
@@ -21,6 +21,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "@types/jquery": "^3.5.16",
     "@types/node": "^20.4.0",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",

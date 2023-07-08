@@ -1,0 +1,20 @@
+<selection class="mouse-tray">
+    <div class="flexrow">
+        <div id="mouse-pool">
+            <div class="dice">
+                <ol id="mouse-dice-roll" class="mouse-dice-roll"></ol>
+            </div>
+        </div>
+    </div>
+    <div class="flexrow">
+        <button class="mouse-dice-button" data-action="modify-dice" data-mode="add">
+            {{ localize "MOUSEGUARD.AddDice" }}
+        </button>
+        <button class="mouse-dice-button" data-action="modify-dice" data-mode="subtract">
+            {{ localize "MOUSEGUARD.SubtractDice" }}
+        </button>
+        <button class="mouse-roll-button" data-action="roll-dice">
+            {{ localize "MOUSEGUARD.RollDice" }}
+        </button>
+    </div>
+</section>

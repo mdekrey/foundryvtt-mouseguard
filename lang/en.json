@@ -1,1 +1,6 @@
-{}
+{
+	"MOUSEGUARD.AddDice": "+1 Dice",
+	"MOUSEGUARD.SubtractDice": "-1 Dice",
+	"MOUSEGUARD.RollDice": "Roll Dice",
+	"MOUSEGUARD.Success": "Success"
+}
