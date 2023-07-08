@@ -24,7 +24,7 @@
 			"path": "packs/skills.db",
 			"entity": "Item",
 			"type": "Item",
-			"system": "mouseguard"
+			"system": "mdekrey-mouseguard"
 		},
 		{
 			"name": "traits",
@@ -32,7 +32,15 @@
 			"path": "packs/traits.db",
 			"entity": "Item",
 			"type": "Item",
-			"system": "mouseguard"
+			"system": "mdekrey-mouseguard"
+		},
+		{
+			"name": "weather",
+			"label": "Weather",
+			"path": "packs/weather.db",
+			"entity": "Item",
+			"type": "Item",
+			"system": "mdekrey-mouseguard"
 		}
 	],
 	"languages": [
